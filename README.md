@@ -4,7 +4,7 @@ Tiny PHP Framework
 Tiny PHP framework 主要是我在做游戏项目沉淀积累。
 我参考了很多游戏的框架,例如doitphp,Cascade.
 
-controller层,没有多加考虑,主要是将我们项目中用到的Cascade引入,cascade的优点如下：
+controller层,比较easy,主要是将我们项目中用到的Cascade引入,cascade的优点如下：
 
 1. 对各类数据源的访问同一接口
 2. 对memcache的访问直接用如下方法
