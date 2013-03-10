@@ -11,6 +11,7 @@ controller层,比较easy,主要是将我们项目中用到的Cascade引入,casca
     
     直接在gateway层添加callSessionBefore或callSessionAfter,AOP思想,实现调用数据库数据与缓存数据分离。
 
+
     public function callSessionAfter($method,$args,$result) {
         switch ($method) {
             case 'execute' :
@@ -37,6 +38,7 @@ controller层,比较easy,主要是将我们项目中用到的Cascade引入,casca
         }   
         return null;
     } 
+    
     
 3. 分库分表
 4. 并非一般MVC结构,新增一层service,可提供不同的应用接口
