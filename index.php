@@ -8,6 +8,6 @@ require_once(APP_ROOT . 'tiny/Tiny.class.php');
 require_once(APP_ROOT . 'Cascade.php');
 
 $one = new Tiny();
-$one->execute();
+$one::execute();
 
 ?>
